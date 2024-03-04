@@ -1,8 +1,0 @@
-/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/lib/libglfw3.a
-/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/include/GLFW/glfw3.h
-/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/include/GLFW/glfw3native.h
-/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/lib/cmake/glfw3/glfw3Config.cmake
-/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/lib/cmake/glfw3/glfw3ConfigVersion.cmake
-/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/lib/cmake/glfw3/glfw3Targets.cmake
-/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/lib/cmake/glfw3/glfw3Targets-debug.cmake
-/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/lib/pkgconfig/glfw3.pc
