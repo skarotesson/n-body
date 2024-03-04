@@ -1,0 +1,1 @@
+/home/kommy/projects/n-body/target/debug/natu: /home/kommy/projects/n-body/src/camera.rs /home/kommy/projects/n-body/src/main.rs /home/kommy/projects/n-body/src/modelutils/file_parser.rs /home/kommy/projects/n-body/src/modelutils.rs /home/kommy/projects/n-body/src/natu.rs /home/kommy/projects/n-body/src/object.rs /home/kommy/projects/n-body/src/shaderutils.rs

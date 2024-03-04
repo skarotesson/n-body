@@ -1,0 +1,15 @@
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/CMakeFiles/uninstall.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/CMakeFiles/edit_cache.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/CMakeFiles/rebuild_cache.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/CMakeFiles/list_install_components.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/CMakeFiles/install.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/CMakeFiles/install/local.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/CMakeFiles/install/strip.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/src/CMakeFiles/update_mappings.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/src/CMakeFiles/glfw.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/src/CMakeFiles/edit_cache.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/src/CMakeFiles/rebuild_cache.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/src/CMakeFiles/list_install_components.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/src/CMakeFiles/install.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/src/CMakeFiles/install/local.dir
+/home/kommy/projects/n-body/target/debug/build/glfw-sys-f49aa9a0ecb9a41c/out/build/src/CMakeFiles/install/strip.dir
