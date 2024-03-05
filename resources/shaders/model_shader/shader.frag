@@ -15,7 +15,7 @@ in VS_OUTPUT {
 void main()
 {
     Color = texture(tex1, IN.TexCoord);// * IN.Color;
-    Color =  IN.Color;
+    //Color =  IN.Color;
 
 }
 

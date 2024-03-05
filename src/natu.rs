@@ -16,7 +16,7 @@ pub struct Natu {
     pub camera: camera::Camera,
     // Hashmap was chosen over vector to allow human readable object access
     // e.g. let object = objects.get_mut("monkey");
-    objects: std::collections::HashMap<String, object::RenderObject>,
+    pub objects: std::collections::HashMap<String, object::RenderObject>,
 
     pub fps: f64,
     // Time between frames. Useful in physics calculations.

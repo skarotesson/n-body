@@ -15,6 +15,8 @@ pub struct RenderObject {
     pub acceleration: na::Vector3<f32>,
 
     pub scale: f32,
+
+    pub mass: f32,
 }
 
 impl RenderObject {
@@ -43,6 +45,7 @@ impl RenderObject {
             velocity: na::Vector3::<f32>::new(0.0, 0.0, 0.0),
             acceleration: na::Vector3::<f32>::new(0.0, 0.0, 0.0),
             scale: 0.5,
+            mass: 1.0,
         }
     }
 }
