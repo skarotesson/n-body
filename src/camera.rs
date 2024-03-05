@@ -26,7 +26,7 @@ impl Camera {
             * na::Matrix4::<f32>::from_axis_angle(&na::Vector3::<f32>::y_axis(), self.yaw)
             .prepend_translation(&(-self.position));
 
-        self.direction =  ((na::Matrix4::<f32>::from_axis_angle(&na::Vector3::<f32>::x_axis(), self.pitch)
+        self.direction = ((na::Matrix4::<f32>::from_axis_angle(&na::Vector3::<f32>::x_axis(), self.pitch)
             * na::Matrix4::<f32>::from_axis_angle(&na::Vector3::<f32>::y_axis(), self.yaw))
             .try_inverse().unwrap()
             * na::Vector4::<f32>::new(0.0,0.0,-1.0,1.0)).xyz();

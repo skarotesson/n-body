@@ -45,12 +45,23 @@ fn tick(game: &mut natu::Natu) {
     nbody(game);
     apply_physics(game);
     //game.get("ico").position = game.get("monkey").position + game.get("monkey").acceleration * 0.1
+    spectate(game, "5")
+}
+
+// 
+fn spectate(game: &mut natu::Natu, object_name: &str) {
+    {
+        game.get(object_name).scale = 1.0;
+        let dir = game.get(object_name).velocity.normalize();
+        game.camera.position = game.get(object_name).position - game.camera.direction*(10.0 as f32);
+    }
+    
 }
 
 fn nbody(game: &mut natu::Natu) {
     // (Key, Pos, Mass) for each object
 
-    let G = 100.0;
+    let G = 1000.0;
 
     let mut accelerations: std::collections::HashMap<String, na::Vector3<f32>> = Default::default();
     
@@ -93,11 +104,10 @@ fn apply_physics(game: &mut natu::Natu) {
         obj.position += delta as f32 * obj.velocity;
 
         // Just for fun: face in direction of movement
-
         let vel = obj.velocity.normalize();
         
+        obj.pitch = (-vel.y).asin();
         obj.yaw = vel.x.atan2(vel.z);
-        obj.pitch = -vel.y.atan2(vel.xy().magnitude().powf(2.0));
         println!("{:?}", obj.yaw);
     }
     
